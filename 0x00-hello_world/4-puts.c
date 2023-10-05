@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main is the entry point of function, main is of type int 
- * main uses put to display a string 
- * main returns 0
+ * main - entry point
+ * type: int  
+ * return: 0 on success
 */
 int main(void)
 {
