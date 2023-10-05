@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  * main - entry point
- * type: int  
- * return: 0 on success
+ *
+ * Type: int
+ *
+ * Return: 0 on success
 */
 int main(void)
 {
