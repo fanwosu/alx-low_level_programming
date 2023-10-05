@@ -5,3 +5,4 @@
 #3-name is a script that compiles a C file and creates an executable named cisfun
 #4-puts.c is a C program that prints extactly "Programming is like building a multilingual puzzle"
 #5-printf.c is a script that writes a C program that prints exactly with proper grammar, but the outcome is a piece of art
+#6-size.c is a script program that prints the size of various types on the computer it is compiled and run on
