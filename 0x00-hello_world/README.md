@@ -6,3 +6,4 @@
 #4-puts.c is a C program that prints extactly "Programming is like building a multilingual puzzle"
 #5-printf.c is a script that writes a C program that prints exactly with proper grammar, but the outcome is a piece of art
 #6-size.c is a script program that prints the size of various types on the computer it is compiled and run on
+#100-intel is a script that generates the assembly code (intel syntax) of a C code and save it in an output file
