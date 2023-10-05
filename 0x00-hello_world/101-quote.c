@@ -9,7 +9,8 @@
 */
 int main(void)
 {
-	char *statementVariable = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	fprintf(stderr, "%s", statementVariable);
+	char *Var = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	fprintf(stderr, "%s", Var);
 	return (1);
 }
