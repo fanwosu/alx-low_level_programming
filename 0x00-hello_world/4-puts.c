@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /*
  * main is the entry point of function 
  * main is of type int 
  * main uses put to display a string 
  * main returns 0
+*
 */
 int main(void)
 {
