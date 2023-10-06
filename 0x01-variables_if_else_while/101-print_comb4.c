@@ -18,7 +18,7 @@ int main(void)
 		{
 			if (y > x)
 			{
-				for (z ='0'; z <= '9'; z++)
+				for (z = '0'; z <= '9'; z++)
 				{
 					if (z > y)
 					{
