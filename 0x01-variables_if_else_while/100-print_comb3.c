@@ -16,7 +16,7 @@ int main(void)
 		for (z = '0'; z <= '9'; z++)
 		{
 			if (z > y)
-			{	
+			{
 				putchar(y);
 				putchar(z);
 				if (y < '8')
