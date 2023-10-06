@@ -25,4 +25,6 @@ int main(void)
 	{
 		printf("Last digit of %d is %d: and i is grater than 5\n", n,n % 10);
 	}
+
+	return (0);
 }
