@@ -4,7 +4,7 @@
 /**
  * main- entry point for function
  *
- * retur: returns 0 on success
+ * return: returns 0 on success
 */
 int main(void)
 {
