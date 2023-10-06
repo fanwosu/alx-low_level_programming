@@ -8,3 +8,4 @@ Title - Variables, if, else, while
 #7-print_tebahpla is a programm that prints the lowercase alphabets in reverse, followed by a new line.
 #8-print_base16.c is a program that prints all the numbers of base 16 in lower lowercase, followed by a new line.
 #9-print_combo.c is a program that prints all possible combinations of single digit numbers
+#100-print_comb3.c is a progam that prints all possible different combinations of two digits
