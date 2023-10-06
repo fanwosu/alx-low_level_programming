@@ -13,19 +13,19 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int last_digit;
-	last_digit = n % 10;
+	int ld;
+	ld = n % 10;
 
-	if (last_digit == 0)
+	if (ld == 0)
 	{
-		printf("Last digit of %d is %d: and is 0\n", n,last_digit);
+		printf("Last digit of %d is %d: and is 0\n", n,ld);
 	}
-	else if (last_digit < 6)
+	else if (ld < 6)
 	{
-		printf("Last digit of %d is %d: and it is less than 6 and not 0\n", n,last_digit);
+		printf("Last digit of %d is %d: and it is less than 6 and not 0\n", n,ld);
 	}
 	else
 	{
-		printf("Last digit of %d is %d: and i is grater than 5\n", n,last_digit);
+		printf("Last digit of %d is %d: and i is grater than 5\n", n,ld);
 	}
 }
