@@ -7,3 +7,4 @@ Title - Variables, if, else, while
 5-print_numbers is a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 #7-print_tebahpla is a programm that prints the lowercase alphabets in reverse, followed by a new line.
 #8-print_base16.c is a program that prints all the numbers of base 16 in lower lowercase, followed by a new line.
+#9-print_combo.c is a program that prints all possible combinations of single digit numbers
