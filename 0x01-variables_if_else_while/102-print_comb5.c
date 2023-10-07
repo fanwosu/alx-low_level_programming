@@ -3,17 +3,16 @@
 #include <time.h>
 
 /**
- *  * main - this is the entry point of function
- *   *
- *    * Return: Returns 0 on success
- *    */
-
+ * main - this is the entry point of function
+ *
+ *Return: Returns 0 on success
+ */
 int main(void)
 {
 	int a;
 	int b;
 
-	for (a =0; a <= 99; a++)
+	for (a = 0; a <= 99; a++)
 	{
 		for (a = a; b <= 99; b++)
 		{
@@ -23,7 +22,7 @@ int main(void)
 			putchar((b / 10) + '0');
 			putchar((b % 10) + '0');
 
-			if (a != 99 || b != 99)
+			if (a != 99 && b != 99)
 			{
 				putchar(',');
 				putchar(' ');
