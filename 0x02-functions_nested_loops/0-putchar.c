@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  *main - entry point of function
  *
  *Return: returns 0 on success
