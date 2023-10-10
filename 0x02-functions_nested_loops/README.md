@@ -6,3 +6,4 @@ This directory is for functions and nested loops
 #4-isalpha.c is a function that checks for alphabetic character
 #5-sign.c is a function that prints the sign of a number
 6-abs.c is a function that computes the absolute value of an integer
+#7-print_last_digit.c writes a function that prints the last digit of numbers
