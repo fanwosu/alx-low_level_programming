@@ -5,7 +5,7 @@
  *
  * @a: the int to be checked
  *
- * Return: returns 1 and prints + if a  is greater than zero, 
+ * Return: returns 1 and prints + if a  is greater than zero
  * prints 0 if 0 and -1 if a is less than zero
 */
 int print_sign(int a)
