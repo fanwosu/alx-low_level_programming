@@ -10,3 +10,4 @@ This directory is for functions and nested loops
 #8-24_hours.c is a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 #9-times_table.c is a function that prints the 9 times table, starting with 0
 #10-add.c is a function that adds 2 integers and return their result
+#11-print_to_98.c is a function that prints all natural numbers from 0 to 98
