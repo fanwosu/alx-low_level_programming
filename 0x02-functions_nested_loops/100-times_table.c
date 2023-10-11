@@ -9,7 +9,7 @@
  * Returns: returns 0 on success, and 1 if otherwise
 */
 
-ioid print_times_table(int n)
+void print_times_table(int n)
 {
 	int x, y, z;
 	
