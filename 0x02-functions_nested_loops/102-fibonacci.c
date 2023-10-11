@@ -10,13 +10,14 @@ int main(void)
 
 	for (x = 0; x < 50; x++)
 	{
-		if (second <= 20365011074)
+		if (second != 20365011074)
 		{
 			printf("%ld, ", second);
 		}
 		else
 		{
 			printf("%ld\n", second);
+			break;
 		}
 		next = first + second;
 		first = second;
