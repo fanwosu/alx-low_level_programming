@@ -14,22 +14,21 @@ int main(void)
 		{
 			printf("%ld, ", first);
 		}
-		else if (x == 1)
-		{
-			printf("%ld, ", second);
-		}
-		else if (second != 20365011074)
-		{
-			printf("%ld, ", second);
-		}
 		else
 		{
-			printf("%ld\n", second);
-			break;
+			if (second != 20365011074)
+			{
+				printf("%ld, ", second);
+			}
+			else
+			{
+				printf("%ld\n", second);
+				break;
+			}
+			next = first + second;
+			first = second;
+			second = next;
 		}
-		next = first + second;
-		first = second;
-		second = next;
 	}
 	return (0);
 }
