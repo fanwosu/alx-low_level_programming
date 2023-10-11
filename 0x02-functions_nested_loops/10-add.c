@@ -9,10 +9,10 @@
  *
  * Return: the sum of a and b
 */
-int add(int a, int b)
+int add(int x, int y)
 {
 	int r;
 
-	r = a + b;
+	r = x + y;
 	return (r);
 }
