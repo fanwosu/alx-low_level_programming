@@ -16,7 +16,7 @@ int main(void)
 		}
 		else
 		{
-			if (second != 20365011074)
+			if (x != 97)
 			{
 				printf("%ld, ", second);
 			}
