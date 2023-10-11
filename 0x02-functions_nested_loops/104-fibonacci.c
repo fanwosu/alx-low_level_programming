@@ -7,23 +7,23 @@
 
 int main(void)
 {
-	uint64_t x, first = 1, second = 2, next;
+	unsigned long int x, first = 1, second = 2, next;
 
 	for (x = 0; x < 98; x++)
 	{
 		if (x == 0)
 		{
-			printf("%"PRIu64", ", first);
+			printf("%lu, ", first);
 		}
 		else
 		{
 			if (x != 97)
 			{
-				printf("%"PRIu64", ", second);
+				printf("%lu, ", second);
 			}
 			else
 			{
-				printf("%"PRIu64"\n", second);
+				printf("%lu\n", second);
 				break;
 			}
 			next = first + second;
