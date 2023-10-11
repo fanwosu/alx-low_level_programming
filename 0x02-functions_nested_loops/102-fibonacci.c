@@ -6,25 +6,21 @@
 
 int main(void)
 {
-	int x;
-	unsigned fibonacci[50];
+	long x, first = 1, second = 2, next;
 
 	for (x = 0; x < 50; x++)
 	{
-		if (x == 0)
+		if (second != 20365011074)
 		{
-			fibonacci[x] = 1;
-		}
-		else if (x == 1)
-		{
-			fibonacci[x] = 2;
+			printf("%ld, ", second);
 		}
 		else
 		{
-			fibonacci[x] = fibonacci[x - 1] + fibonacci[x - 2];
+			printf("%ld\n", second);
 		}
-		printf("%d, ", fibonacci[x]);
+		next = first + second;
+		first = second;
+		second = next;
 	}
-	putchar('\n');
 	return (0);
 }
