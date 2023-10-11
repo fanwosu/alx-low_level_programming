@@ -12,3 +12,4 @@ This directory is for functions and nested loops
 #10-add.c is a function that adds 2 integers and return their result
 #11-print_to_98.c is a function that prints all natural numbers from 0 to 98
 #100-times_table.c is a function that prints the n times table, starting with o
+101-natural.c is a function that that computes and prints the sum of all the multiples of 3 or 5 below 1024
