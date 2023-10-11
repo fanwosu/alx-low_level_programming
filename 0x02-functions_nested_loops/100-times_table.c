@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_times_table - is a function that 
+ * print_times_table - is a function that
  * prints times table of n starting with 0
  *
- *@n: is the number whose time table is printed 
+ *@n: is the number whose time table is printed
  *
  * Returns: returns 0 on success, and 1 if otherwise
 */
@@ -30,7 +30,7 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar(y + '0');
+					_putchar(z + '0');
 				}
 				else if (z >= 10 && z < 100)
 				{
@@ -50,6 +50,6 @@ void print_times_table(int n)
 				}
 			}
 			_putchar('\n');
-		}
+		i}
 	}
 }
