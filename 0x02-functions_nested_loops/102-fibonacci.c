@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
  * main - this is the function that prints the first 50 fibonacci numbers
- * Result: returns 50 numbers
+ * Return: returns 50 numbers
 */
 
 int main(void)
 {
 	int x, fibonacci[50];
-	
 	for (x = 0; x < 50; x++)
 	{
 		if (x == 0)
