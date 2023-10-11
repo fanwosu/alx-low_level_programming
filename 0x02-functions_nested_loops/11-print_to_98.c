@@ -13,13 +13,13 @@ void print_to_98(int n)
 
 	if (n < 99)
 	{
-		for (x = 98; x < 99; x++)
+		for (x = n; x < 99; x++)
 		{
 			if (x != 98)
 			{
 				_putchar(x);
 			}
-			else if(x == 98)
+			else if (x == 98)
 			{
 				_putchar(x);
 			}
