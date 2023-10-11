@@ -6,7 +6,8 @@
 
 int main(void)
 {
-	int x, fibonacci[50];
+	int x;
+	unsigned long long fibonacci[50];
 
 	for (x = 0; x < 50; x++)
 	{
