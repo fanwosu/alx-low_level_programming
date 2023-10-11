@@ -25,4 +25,5 @@ int main(void)
 		printf("%d, ", fibonacci[x]);
 	}
 	putchar('\n');
+	return (0);
 }
