@@ -14,6 +14,10 @@ int main(void)
 		{
 			printf("%ld, ", first);
 		}
+		else if (x == 1)
+		{
+			printf("%ld, ", second);
+		}
 		else if (second != 20365011074)
 		{
 			printf("%ld, ", second);
