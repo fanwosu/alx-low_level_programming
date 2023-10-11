@@ -20,7 +20,9 @@ int main(void)
 		}
 		else
 		{
-			fibonacci[x] = fibonacci[x-1] + fibonacci[x-2];
+			int last = x - 1;
+			int last_two = x - 2;
+			fibonacci[x] = fibonacci[last] + fibonacci[last_two];
 		}
 		printf("%d, ", fibonacci[x]);
 	}
