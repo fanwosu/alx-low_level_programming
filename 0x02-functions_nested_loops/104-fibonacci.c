@@ -6,23 +6,23 @@
 
 int main(void)
 {
-	long x, first = 1, second = 2, next;
+	unsigned long x, first = 1, second = 2, next;
 
 	for (x = 0; x < 98; x++)
 	{
 		if (x == 0)
 		{
-			printf("%ld, ", first);
+			printf("%lu, ", first);
 		}
 		else
 		{
 			if (x != 97)
 			{
-				printf("%ld, ", second);
+				printf("%lu, ", second);
 			}
 			else
 			{
-				printf("%ld\n", second);
+				printf("%lu\n", second);
 				break;
 			}
 			next = first + second;
