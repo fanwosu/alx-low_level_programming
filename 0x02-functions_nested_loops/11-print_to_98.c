@@ -17,11 +17,11 @@ void print_to_98(int n)
 		{
 			if (x != 98)
 			{
-				printf("%d", x);
+				printf("%d, ", x);
 			}
 			else if (x == 98)
 			{
-				printf("%d", x);
+				printf("%d\n", x);
 			}
 		}
 	}
@@ -31,11 +31,11 @@ void print_to_98(int n)
 		{
 			if (y != 98)
 			{
-				printf("%d", y);
+				printf("%d, ", y);
 			}
 			else if (y == 98)
 			{
-				printf("%d", y);
+				printf("%d\n", y);
 			}
 		}
 	}
