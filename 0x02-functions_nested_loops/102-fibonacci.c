@@ -7,6 +7,7 @@
 int main(void)
 {
 	int x, fibonacci[50];
+
 	for (x = 0; x < 50; x++)
 	{
 		if (x == 0)
@@ -19,9 +20,7 @@ int main(void)
 		}
 		else
 		{
-			int last = x - 1;
-			int last_two = x - 2;
-			fibonacci[x] = fibonacci[last] + fibonacci[last_two];
+			fibonacci[x] = fibonacci[x - 1] + fibonacci[x - 2];
 		}
 		printf("%d, ", fibonacci[x]);
 	}
