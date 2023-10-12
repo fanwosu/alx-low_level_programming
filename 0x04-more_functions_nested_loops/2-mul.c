@@ -1,10 +1,10 @@
 #include "main.h"
 
-/**
- *mul - multiplies two integers
- *@a: int to be multiplied to b
- * @b: int to be multiplied to a
- * Return: the result of the operation
+/*
+ * mul - multiplies two integers
+ * @x: int to be multiplied to x
+ * @y: int to be multiplied to y
+ * Return: result of x*y
 */
 int mul(int x, int y)
 {
