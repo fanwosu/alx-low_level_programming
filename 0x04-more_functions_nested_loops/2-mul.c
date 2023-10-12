@@ -6,10 +6,12 @@
  * @y: int to be multiplied to y
  * Return: result of x*y
 */
+
 int mul(int x, int y)
 {
 	int z;
 	
 	z = x * y;
+
 	return (z);
 }
