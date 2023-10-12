@@ -8,11 +8,11 @@
 
 void more_numbers(void)
 {
-	int x;
+	int x =1;
 
 	while (x <= 10 )
 	{
-		int i;
+		int i = 0;
 		
 		while (i <= 14)
 		{
