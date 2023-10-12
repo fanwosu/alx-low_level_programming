@@ -9,11 +9,12 @@
  *
  * Return: result of x*y
 */
+
 int mul(int x, int y)
 {
-	int z;
-	
-	z = x * y;
+	int result;
 
-	return (z);
+	result = x * y;
+
+	return (result);
 }
