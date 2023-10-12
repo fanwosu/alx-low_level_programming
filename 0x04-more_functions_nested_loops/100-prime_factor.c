@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	long int n;
-	long int max;
-	long int m;
+	long long n;
+	long long max;
+	long long m;
 
 	n = 612852475143;
 	max = -1;
@@ -35,7 +35,7 @@ int main(void)
 		max = n;
 	}
 	
-	printf("%ld\n", max);
+	printf("%lld\n", max);
 
 	return (0);
 }
