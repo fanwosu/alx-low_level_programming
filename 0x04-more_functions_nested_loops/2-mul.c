@@ -9,7 +9,6 @@
  *
  * Return: result of x*y
 */
-
 int mul(int x, int y)
 {
 	int z;
