@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- *main - prints the numbers from 1 to 100, followed by a new line
- *but for multiples of three prints Fizz instead of the number
- *and for the multiples of five prints Buzz
- *Return: 0
+ * main - prints the numbers from 1 to 100, followed by a new line
+ * but for multiples of three prints Fizz instead of the number
+ * and for the multiples of five prints Buzz
+ * Return: 0
 */
 int main(void)
-{
+{{
 	int x;
 
 	for (x = 1; x <= 100; x++)
@@ -34,6 +34,6 @@ int main(void)
 			printf(" %d", x);
 		}
 	}
-		printf("\n");
-		return (0);
+	printf("\n");
+	return (0);
 }
