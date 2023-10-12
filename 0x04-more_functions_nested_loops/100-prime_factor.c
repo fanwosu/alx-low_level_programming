@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	long long n;
-	long long max;
-	long long m;
+	long int n;
+	long int max;
+	long int i;
 
 	n = 612852475143;
 	max = -1;
@@ -21,22 +21,20 @@ int main(void)
 		max = 2;
 		n /= 2;
 	}
-
-	for (m = 3; m <= sqrt(n); m = m + 2)
+	
+	for (i = 3; i <= sqrt(n); i = i + 2)
 	{
-		while (n % m == 0)
+		while (n % i == 0)
 		{
-			max = m;
-			n = n / m;
+			max = i;
+			n = n / i;
 		}
 	}
-	for (n > 2)
+	if (n > 2)
 	{
 		max = n;
 	}
-	
-	printf("%lld\n", max);
 
+	printf("%ld\n", max);
 	return (0);
 }
-
