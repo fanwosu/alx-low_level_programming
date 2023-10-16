@@ -34,5 +34,5 @@ int _atoi(char *s)
 	}
 	if (z == 0)
 		return (0);
-	return (0);
+	return (n);
 }
