@@ -15,9 +15,9 @@ int main(void)
 	srand(time(NULL));
 	for (x = 0; x < 100; x++)
 	{
-		pass[i] = rand() % 78;
-		sum += (pass[i] + '0');
-		putchar(pass[i] + '0');
+		pass[x] = rand() % 78;
+		sum += (pass[x] + '0');
+		putchar(pass[x] + '0');
 		if ((2772 - add) - '0' < 78)
 		{
 			y = 2772 - add - '0';
