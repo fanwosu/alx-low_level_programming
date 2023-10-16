@@ -26,7 +26,7 @@ int atoi(char *s)
 		{
 			y++;
 		}
-		if (s[x] >= '0' && s[i] <= '9')
+		if (s[x] >= '0' && s[x] <= '9')
 		{
 			digi = s[x] - '0';
 			if (y % 2)
@@ -35,7 +35,7 @@ int atoi(char *s)
 			}
 			n = n * 10 + digi;
 			z = 1;
-			if (s[x + 1} < '0' || s[x - 1] > '9')
+			if (s[x + 1] < '0' || s[x - 1] > '9')
 			{
 				break;
 			}
