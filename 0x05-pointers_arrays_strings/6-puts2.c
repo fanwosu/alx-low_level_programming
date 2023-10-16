@@ -9,7 +9,7 @@ void puts2(char *string)
 {
 	int i = 0;
 
-	while (sring[i] != '\0')
+	while (string[i] != '\0')
 	{
 		puchar(string[i]);
 		i += 2;
