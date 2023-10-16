@@ -4,7 +4,7 @@
  * @string: is the string to be printed
  * Return: Returns 0 on success
  */
-void print_rev(*string)
+void print_rev(char *string)
 {
 	int strlength = strlen(string);
 	int x;
