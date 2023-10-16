@@ -21,7 +21,7 @@ void _puts_half(char *string)
 		{
 			break;
 		}
-		$counter++;
+		counter++;
 	}
 	_putchar('\n');
 }
