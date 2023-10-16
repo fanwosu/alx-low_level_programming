@@ -13,7 +13,7 @@ void print_array(int *arr, int no)
 	{
 		printf("%d, ", arr[x]);
 	}
-	if ( x == (no -1))
+	if (x == (no - 1))
 	{
 		printf("%d", arr[no - 1]);
 	}
