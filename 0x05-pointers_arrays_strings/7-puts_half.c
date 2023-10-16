@@ -9,9 +9,9 @@
 void _puts_half(char *string)
 {
 	int x, half, length;
-	int length = 0;
+	length = 0;
 
-	for (x = 0; string[0] != '\0'; a++)
+	for (x = 0; string[0] != '\0'; x++)
 	{
 		length++;
 	}
