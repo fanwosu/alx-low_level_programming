@@ -16,7 +16,7 @@ int main(void)
 	for (x = 0; x < 100; x++)
 	{
 		pass[x] = rand() % 78;
-		sum += (pass[x] + '0');
+		add += (pass[x] + '0');
 		putchar(pass[x] + '0');
 		if ((2772 - add) - '0' < 78)
 		{
