@@ -39,7 +39,7 @@ int atoi(char *s)
 			{
 				break;
 			}
-			f = 0;
+			z = 0;
 		}
 	x++;
 	}
