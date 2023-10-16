@@ -15,7 +15,7 @@ void print_array(int *arr, int no)
 	}
 	if ( x == (no -1))
 	{
-		printf("%d", a[no - 1]);
+		printf("%d", arr[no - 1]);
 	}
 	printf("\n");
 }
