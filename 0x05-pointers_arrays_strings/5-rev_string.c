@@ -20,3 +20,5 @@ void rev_string(char *string)
 		s[e] = temp;
 		s++;
 		e--;
+	}
+}
