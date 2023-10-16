@@ -16,3 +16,4 @@ void print_rev(char *string)
 		_putchar(string[x]);
 	}
 	_putchar('\n');
+}
