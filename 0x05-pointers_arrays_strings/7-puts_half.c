@@ -8,11 +8,11 @@
  */
 void puts_half(char *string)
 {
-	int half, len;
+	int half, len, stop;
 
 	len = strlen(string);
-	int stop = len / 2;
-	for (half = 0; half < len; x++)
+	stop = len / 2;
+	for (half = 0; half < stop; half++)
 	{
 		_putchar(string[half]);
 	}
