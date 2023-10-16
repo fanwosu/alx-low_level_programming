@@ -15,5 +15,5 @@ void puts2(char *string)
 		i += 2;
 	}
 
-	printf("\n");
+	_putchar('\n');
 }
