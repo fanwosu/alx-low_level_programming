@@ -2,17 +2,17 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *_puts_half - function that prints a string, followed by a new line, to stdout
+ *puts_half - function that prints a string, followed by a new line, to stdout
  * @string: string to be printed
  * Return: half of string
  */
 void puts_half(char *string)
 {
-	int half, len, stop;
+	int half, len, start;
 
 	len = strlen(string);
-	stop = len / 2;
-	for (half = 0; half < stop; half++)
+	start = len / 2;
+	for (half = start - 1; half < length; half++)
 	{
 		_putchar(string[half]);
 	}
