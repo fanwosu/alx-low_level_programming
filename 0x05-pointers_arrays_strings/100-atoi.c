@@ -7,16 +7,9 @@
  */
 int _atoi(char *s)
 {
-	int x, y, n, len, z, digi;
+	int x = 0, y = 0, n = 0, len = 0, z = 0, digi = 0;
 
-	x = 0;
-	y = 0;
-	n = 0;
-	len = 0;
-	z = 0;
-	digi = 0;
-
-	while(s[len] != '\0')
+	while (s[len] != '\0')
 	{
 		len++;
 	}
