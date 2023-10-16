@@ -11,7 +11,7 @@ void print_array(int *arr, int no)
 
 	for (x = 0; x < (no - 1); x++)
 	{
-		printf("%d, ", arr[x];
+		printf("%d, ", arr[x]);
 	}
 	if ( x == (no -1))
 	{
