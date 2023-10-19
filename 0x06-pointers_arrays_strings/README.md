@@ -6,3 +6,4 @@
 #3-strcmp.c is a program that compares two strings
 #4-rev_array.c is a program that reverses the contents of an array of integers
 #6-cap_string.c is a program capitalizes all words of a string
+#7-leet.c is a function that encodes a string into 1337
