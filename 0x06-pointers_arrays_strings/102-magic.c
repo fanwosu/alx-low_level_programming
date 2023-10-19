@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * main - the entry point of function
+ * @void: accept no parameter
  * Return: always 0
  */
 
