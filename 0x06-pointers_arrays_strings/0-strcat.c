@@ -1,25 +1,25 @@
 #include "main.h"
 /**
- * _strcat - is a function that prints 2 strings.
+ * _strcat - is a function that prints 2 contenated strings.
  * @dest: one of the input parameter strings.
  * @src: the second input paramenter string.
- * Return: returns 0 on success.
+ * Return: returns a pointer to the resulting array..
  */
-char _strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	char *orig = dest;
+	int x = 0;
+	int y = 0;
 
-	while (*dest != '\0')
+	while (dest[x] != '\0')
 	{
-		dest++;
+		x++;
 	}
-
-	while (*src != '\0')
+	while (src[y] != '\0')
 	{
-		*dest = *src;
-		dest++;
-		scr++;
+		dest[x] = src[y];
+		y++;
+		x++;
 	}
-	*dest = '\0';
-	return (orig);
-}	
+	dest[x] = '\0';
+	return (dest);
+}
