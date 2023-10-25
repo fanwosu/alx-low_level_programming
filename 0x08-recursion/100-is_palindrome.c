@@ -6,7 +6,7 @@
  */
 int strlenth_recursion(char *string)
 {
-	if (*string)
+	if (*string != '\0')
 	{
 		string++;
 		return (1 + strlenth_recursion(string));
