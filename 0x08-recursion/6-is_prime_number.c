@@ -2,7 +2,7 @@
 /**
  * prime_check - function that returns 1 if a number is prime
  * and 0 if otherwise
- * @n: number to check if it's prime
+ * @x: number to check if it's prime
  * @y: number to iterate from 1 to n
  * Return: 1 or 0
  */
