@@ -5,6 +5,12 @@
  * @n: is the number whose square root is to be returned
  * Return: returns a square root.
  */
+/**
+ * sqrty - function is used to evaluate _sqrt_recursion
+ * @x: similar to n in _sqrt_recursion
+ * @y: used to iterate from 1 to n or x;
+ * Return: returns 1 on success
+ */
 int sqrty(int x, int y)
 {
 	if (y * y == x)
