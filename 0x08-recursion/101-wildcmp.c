@@ -4,7 +4,7 @@
  * or 0 if otherwise
  * @string1: string 1
  * @string2: string 2
- * Return: returns 1 or 0 
+ * Return: returns 1 or 0
  */
 int wildcmp(char *string1, char *string2)
 {
