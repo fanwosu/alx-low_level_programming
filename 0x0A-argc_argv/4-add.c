@@ -5,7 +5,7 @@
  * main - adds positive numbers
  * @argc: argument count
  * @argv: argument vector
- * Result: result of addition
+ * Return: result of addition
  */
 int main(int argc, char *argv[])
 {
