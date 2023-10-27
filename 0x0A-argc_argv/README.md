@@ -3,3 +3,4 @@
 #1-args.c is a function that prints the number of arguments passed into it
 2-args.c is a function that prints all arguments it receives
 #3-mul.c is a function that multiplies 2 numbers
+#4-add.c is a function that adds positive numbers
