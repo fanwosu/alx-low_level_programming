@@ -9,16 +9,16 @@
  */
 int main(int argc, char *argv[])
 {
+	int sum, x, y;
+
+	sum = 0;
+	y = 1;
 	if (argc < 2)
 	{
 		printf("0\n");
 	}
 	else
 	{
-		int sum, x, y;
-
-		sum = 0;
-		x = 1;
 		while (x < argc)
 		{
 			char *arg = argv[x];
