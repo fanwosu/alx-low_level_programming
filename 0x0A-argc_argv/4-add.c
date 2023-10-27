@@ -12,26 +12,18 @@ int main(int argc, char *argv[])
 	int sum, x, y;
 
 	sum = 0;
-	x = 1;
-	if (argc < 2)
+	for (x = 1; x < argc; x++)
 	{
-		printf("0\n");
-	}
-	else
-	{
-		while (x < argc)
+		for (y = 0; argv[y][y] != '\0'; y++)
 		{
-			char *arg = argv[x];
-			y = atoi(arg);
-			if (y <= 0)
+			if (!isdigit(argv[x][y]))
 			{
 				printf("Error\n");
 				return (1);
 			}
-			sum += y;
-			x++;
 		}
-		printf("%d\n", sum);
+		sum += atoi(argv[x]);
 	}
+	printf("%d\n", sum);
 	return (0);
 }
