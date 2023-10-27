@@ -8,9 +8,8 @@
 int main(int argc, char *argv[])
 {
 	int x;
-       
-	x = 0;
-	while (x < argc)
+	
+	for (x = 0; x < argc;)
 	{
 		x++;
 		(*argv)++;
