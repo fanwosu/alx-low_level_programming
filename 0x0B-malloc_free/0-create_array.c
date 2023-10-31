@@ -21,10 +21,9 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	while (x < size)
+	for (x = 0; x < size; x++)
 	{
 		str[x] = c;
-		x++;
 	}
 	return (str);
 }
