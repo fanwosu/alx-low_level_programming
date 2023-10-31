@@ -4,7 +4,6 @@
  * alloc_grid - creates a 2d dimensional array of integers
  * @width: integer size width
  * @height: integer size height
- * @Description: Each element to be initialzed to 0
  *
  * Return: pointer to the array
  */
