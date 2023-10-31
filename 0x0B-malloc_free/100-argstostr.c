@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * argstostr - is a function that concatenats all arguments of a program
  * @av: pointer to array of size ac.
@@ -9,45 +8,38 @@
  */
 char *argstostr(int ac, char **av)
 {
-	char *in, *rep;
-	int x, y, sum;
-
-	x = 0;
-	y = 0;
-	sum = 0;
+	char *in;
+	int count = 0, x = 0, y = 0, z = 0;
+	
 	if (ac == 0 || av == NULL)
 	{
 		return (NULL);
 	}
 	while (x < ac)
 	{
+		y = 0;
 		while (av[x][y] != '\0')
 		{
-			sum++;
+			count++;
 			y++;
 		}
-		sum++;
 		x++;
 	}
-	sum++;
-	in = malloc((sum * sizeof(char)) + 1);
+	count = count + ac + 1;
+	in = malloc(count * sizeof(char));
 	if (in == NULL)
 	{
 		return (NULL);
 	}
-	rep = in;
-	x = 0;
-	while (x < ac)
+	for (x = 0; x < ac; x++)
 	{
-		while (av[x][y] != '\0')
+		for (y = 0; av[x][y] != '\0'; y++)
 		{
-			*in = av[x][y];
-			in++;
-			y++;
+			in[z] = av[x][y];
+			z++;
 		}
-		*in = '\n';
-		in++;
-		x++;
+		in[z] = '\n';
+		z++;
 	}
-	return (rep);
+	return (in);
 }
