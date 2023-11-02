@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * malloc - reallocated memory block using malloc
- * @*ptr: pointer to the memory previously allocated
+ * *realloc - reallocated memory block using malloc
+ * @ptr: pointer to the memory previously allocated
  * @old_size: previous size of allocated memory
  * @new_size: new size of allocated memory
  * Return: pointer to array
