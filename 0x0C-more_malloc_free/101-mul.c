@@ -15,7 +15,7 @@ int is_digit(char *string)
 		}
 		string++;
 	}
-	return 1;
+	return (1);
 }
 /**
  * main - entry point of function
@@ -32,12 +32,12 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("Error\n");
-		return 98;
+		return (98);
 	}
 	if (!is_digit(argv[1]) || !is_digit(argv[2]))
 	{
 		printf("Error\n");
-		return 98;
+		return (98);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
