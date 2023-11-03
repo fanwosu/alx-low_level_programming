@@ -4,3 +4,4 @@
 
 #3-array_range.c is a function that creates an array of integer
 #100-realloc.c is a function that reallocates a memory block using malloc and free
+#101-mul.c is a program that multiplies two positive numbers
