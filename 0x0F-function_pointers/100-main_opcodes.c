@@ -8,8 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int (*f)(int, char**);
-	int hb, x;
+	int x;
 
 	if (atoi(argv[1]) < 0)
 	{
@@ -21,16 +20,17 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
-	f = main;
 	for (x = 0; x < atoi(argv[1]); x++)
 	{
-		hb = *(unsigned char *)(f + x);
-		printf("%.2x", hb);
-		if(x < atoi(argv[1]) - 1)
+		printf("%02hhx", *((char *)main + x));
+		if (x < (atoi(argv[1]) - 1))
 		{
-			putchar(' ');
+			printf(" ");
+		}
+		else
+		{
+			printf("\n");
 		}
 	}
-	putchar ('\n');
 	return (0);
 }
