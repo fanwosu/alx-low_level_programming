@@ -2,7 +2,7 @@
 /**
  * int_index - function that searches for an integer
  * @array: array to be searched for an integer
- * @size is the number of elements in the array
+ * @size: is the number of elements in the array
  * @cmp: is a pointer to function to be compare.
  * Return: returns index of the first element that matches.
  */
