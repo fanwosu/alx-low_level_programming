@@ -3,7 +3,7 @@
  * int_index - function that searches for an integer
  * @array: array to be searched for an integer
  * @size is the number of elements in the array
- * @cmp: is a pointer to the function to be used to compare value
+ * @cmp: is a pointer to function to be compare.
  * Return: returns index of the first element that matches.
  */
 int int_index(int *array, int size, int (*cmp)(int))
