@@ -3,7 +3,7 @@
 /**
  * main - entry point for function
  * @argc: argument counter
- * @agrv: argument vector
+ * @argv: argument vector
  * Return: array of pointers to args
  */
 int main(int argc, char *argv[])
