@@ -5,7 +5,6 @@
 /**
  * sum_them_all - function that returns sum
  * @n: is the format
- * @...: is variable arguments
  * Return: int
  */
 int sum_them_all(const unsigned int n, ...)
