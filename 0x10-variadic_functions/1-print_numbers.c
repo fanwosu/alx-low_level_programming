@@ -3,11 +3,11 @@
 #include <stdio.h>
 /**
  * print_numbers - prints numbers
- * @seperator: seperates number
+ * @separator: seperates number
  * @n: format
  * Return: void
  */
-void print_numbers(const char *seperator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int counter;
 	char *s;
@@ -16,10 +16,10 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 	va_start(numbers, n);
 	for (counter = 0; counter < n; counter++)
 	{
-		if (seperator == NULL || *seperator == 0)
+		if (separator == NULL || *separator == 0)
 			s = "";
 		else
-			s = (char *)seperator;
+			s = (char *)separator;
 		if (counter == 0)
 			printf("%d", va_arg(numbers, int));
 		else
