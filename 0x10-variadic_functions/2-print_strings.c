@@ -31,7 +31,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		if (ptr == NULL)
 		{
-			printf("(nil)");
+			printf("(nil)%s", s);
 		}
 		if (counter > 0)
 		printf("%s%s", s, ptr);
