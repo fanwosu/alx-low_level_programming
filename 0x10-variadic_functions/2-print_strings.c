@@ -16,25 +16,17 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_start(words, n);
 	for (counter = 0; counter < n; counter++)
 	{
-		if (separator == NULL || *separator ==0)
-		{
+		if (separator == NULL || *separator == 0)
 			s = "";
-		}
 		else
-		{
 			s = (char *)separator;
-		}
 		ptr = va_arg(words, char*);
 		if (counter == 0)
-		{
 			printf("%s", ptr);
-		}
 		if (ptr == NULL)
-		{
 			printf("(nil)%s", s);
-		}
 		if (counter > 0)
-		printf("%s%s", s, ptr);
+			printf("%s%s", s, ptr);
 	}
 	printf("\n");
 	va_end(words);
