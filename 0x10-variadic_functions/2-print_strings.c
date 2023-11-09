@@ -16,7 +16,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_start(words, n);
 	for (counter = 0; counter < n; counter++)
 	{
-		if (separator == NULL)
+		if (separator == NULL || *separator ==0)
 		{
 			s = "";
 		}
