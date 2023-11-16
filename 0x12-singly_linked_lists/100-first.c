@@ -4,7 +4,7 @@ void print_message(void);
  * print_message - prints message
  * Return: void
  */
-void print_message(void)
+void __attribute__ ((constructor)) turtle()
 {
 	char *s;
 
