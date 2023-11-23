@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flit_bits - gets the number of bits flipped form n to m
+ * flip_bits - gets the number of bits flipped form n to m
  * @n: initial lu int
  * @m: secondary lu int
  *
