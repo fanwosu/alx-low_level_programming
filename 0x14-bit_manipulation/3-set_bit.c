@@ -5,12 +5,16 @@
  * @index: ----
  * Return: int
 */
-int set_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (index >= sizeof(unsigned long int) * 8)
+	unsigned long int size, m;
+
+	size = sizeof(*n) * 8 - 1;
+	if (index >= size)
 	{
 		return (-1);
 	}
-	*n ^= (1 << index);
+	m = 1 << index;
+	*n = m | *n;
 	return (1);
 }
