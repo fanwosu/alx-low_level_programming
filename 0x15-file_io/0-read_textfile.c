@@ -23,10 +23,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	op = open(filename, O_RDONLY);
-	rd = read(o, buffer, letters);
-	wr = write(STDOUT_FILENO, buffer, r);
-
-	if (op == -1 || rd == -1 || wr == -1 || wr != r)
+	rd = read(op, chara, letters);
+	wr = write(STDOUT_FILENO, chara, rd);
+	if (op == -1 || rd == -1 || wr == -1 || wr != rd)
 	{
 		free(chara);
 		return (0);
